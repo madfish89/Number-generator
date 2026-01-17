@@ -1,0 +1,22 @@
+body{
+    background-color:#000000;
+    text-align: center;
+    color: white;
+}
+button {
+    text-align: center;
+    color: black;
+    border: solid blue;
+    border-radius: 7px;
+    background-color: blue;
+    transition: all 0.28s ease;
+    font-size: 45px;
+}
+
+button:hover {
+    color: black;
+    background-color: rgb(46, 78, 255);
+}
+button:active {
+    scale: .85;
+}
